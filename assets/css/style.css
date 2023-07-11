@@ -23,6 +23,11 @@ header{
   width: 70%;
   margin: 0 auto;
 }
+
+.new-task{
+  display: inline-block;
+}
+
 /* 
 .top img{
   vertical-align: center;  
@@ -43,6 +48,11 @@ header{
 
 .todo-create{
   padding-top: 5px;
+}
+
+.todo-list{
+  padding-top: 30px;
+  color: #434750;
 }
 
 main .todo-create{
@@ -80,4 +90,8 @@ main .todo-list{
   color: #CBD1D5;
   background-color: #FFFFFF;
   border: 1px solid gray;
+}
+
+.todo-list .section{
+  font-size: 2rem;
 }
