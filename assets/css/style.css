@@ -1,8 +1,10 @@
+/* BUONGIORNO RESET */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* /BUONGIORNO RESET */
 
 body{
   background-color: #F6F8F9;
@@ -19,6 +21,17 @@ header{
   height: 80px;
 }
 
+header .top img{
+  margin: 16px 0;  
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+header .top span{
+  font-size: 2.5rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
 
 .container{
   width: 70%;
@@ -29,22 +42,6 @@ header{
   display: inline-block;
 }
 
-
-header .top img{
-  margin: 16px 0;  
-  vertical-align: center;
-}
-
-header .top span{
-  
-}
-
-.top span{
-  font-size: 2.5rem;
-  font-weight: 600;
-  vertical-align: center;
-}
-
 /* MAIN */
 
 .todo-create, .todo-list{
@@ -53,38 +50,40 @@ header .top span{
 }
 
 .todo-create{
-  padding-top: 5px;
-}
-
-.todo-list{
-  padding-top: 30px;
-  color: #434750;
-}
-
-main .todo-create{
   height: 80px;
   margin-bottom: 1px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  padding-top: 5px;
 }
 
+.todo-list{
+  /* height: 670px; */
+  margin-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 30px;
+  color: #434750;
+}
+
+
+/* BOTTONI */
+
+/* CONTENITORE BOTTONI */
 .todo-create .bottoni{
   margin-top: 20px;
 }
 
+/* BOTTONE VERO E PROPRIO */
 .todo-create .btn{
   padding: 8px 15px;
   /* border: hidden; */
   border-radius: 6px;
   font-weight: 700;
+  font-size: 0.9em;
+  cursor: pointer;
 }
 
-main .todo-list{
-  height: 700px;
-  margin-bottom: 20px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
 
 .todo-create .bottoni #add-task{
   color: white;
@@ -98,7 +97,9 @@ main .todo-list{
   border: 1px solid gray;
 }
 
-/* nome sezioni h2 */
+
+/* TODO LIST */
+
 .todo-list .section{
   font-weight: 700;
   font-size: 1.5rem;
@@ -106,7 +107,7 @@ main .todo-list{
 
 .todo-list ul{
   list-style: none;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .todo-list li{
@@ -145,7 +146,7 @@ main .todo-list{
 
 .todo-list ul .label{
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   display: inline-block;
   padding: 6px 12px;
   border-radius: 12px;
