@@ -8,25 +8,76 @@ body{
   background-color: #F6F8F9;
 }
 
+
 header, main{
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
   background-color: white;
+  margin-bottom: 50px;
 }
+
 
 .container{
-  width: 800px;
+  width: 70%;
   margin: 0 auto;
 }
-
+/* 
 .top img{
-  vertical-align: center;
-}
+  vertical-align: center;  
+} */
+
 .top span{
   font-size: 2.5rem;
   font-weight: 600;
   vertical-align: center;
 }
 
+/* MAIN */
+
+.todo-create, .todo-list{
+  padding-left: 50px;
+  background-color: white;
+}
+
+.todo-create{
+  padding-top: 5px;
+}
+
+main .todo-create{
+  height: 80px;
+  margin-bottom: 1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.todo-create .bottoni{
+  margin-top: 20px;
+}
+
+.todo-create .btn{
+  padding: 8px 15px;
+  /* border: hidden; */
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+main .todo-list{
+  height: 700px;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.todo-create .bottoni #add-task{
+  color: white;
+  background-color: #47ADF1;
+  border: 3px solid #47ADF1;
+}
+
+.todo-create .bottoni #add-section{
+  color: #CBD1D5;
+  background-color: #FFFFFF;
+  border: 1px solid gray;
+}
