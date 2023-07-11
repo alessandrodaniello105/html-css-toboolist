@@ -16,6 +16,7 @@ header, main{
 header{
   background-color: white;
   margin-bottom: 50px;
+  height: 80px;
 }
 
 
@@ -28,10 +29,15 @@ header{
   display: inline-block;
 }
 
-/* 
-.top img{
-  vertical-align: center;  
-} */
+
+header .top img{
+  margin: 16px 0;  
+  vertical-align: center;
+}
+
+header .top span{
+  
+}
 
 .top span{
   font-size: 2.5rem;
@@ -159,6 +165,14 @@ main .todo-list{
 
 .mobile{
   background-color: #F29E33;
+}
+
+.website{
+  background-color: #D863A1;
+}
+
+.sales{
+  background-color: #B0C926;
 }
 
 .section::before{
